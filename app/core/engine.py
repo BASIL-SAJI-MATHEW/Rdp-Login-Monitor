@@ -1,4 +1,4 @@
-"""Detection engine orchestration."""
+"""Detection engine orchestration by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 

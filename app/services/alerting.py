@@ -1,4 +1,4 @@
-"""Alert delivery and throttling services."""
+"""Alert delivery and throttling services by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 
@@ -143,4 +143,3 @@ class AlertService:
             if sent:
                 delivered += 1
         return delivered
-

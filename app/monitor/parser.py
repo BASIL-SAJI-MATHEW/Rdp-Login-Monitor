@@ -1,4 +1,4 @@
-"""Parsers for Windows Event Log XML payloads."""
+"""Parsers for Windows Event Log XML payloads by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 

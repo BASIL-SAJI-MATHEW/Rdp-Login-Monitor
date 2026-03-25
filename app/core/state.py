@@ -1,4 +1,4 @@
-"""State helpers for sliding-window event analysis."""
+"""State helpers for sliding-window event analysis by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 
@@ -34,4 +34,3 @@ class SlidingEventWindow:
             bucket.popleft()
         if not bucket:
             self._storage.pop(key, None)
-

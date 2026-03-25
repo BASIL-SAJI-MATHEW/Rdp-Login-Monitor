@@ -1,4 +1,4 @@
-"""Windows Security Event Log reader."""
+"""Windows Security Event Log reader by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 
@@ -133,4 +133,3 @@ class WindowsSecurityEventReader:
                 "pywin32 is required to monitor Windows Event Logs. "
                 "Install dependencies on a Windows host and rerun the service."
             )
-

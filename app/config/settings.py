@@ -1,4 +1,4 @@
-"""Application configuration loading and normalization."""
+"""Application configuration loading and normalization by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 

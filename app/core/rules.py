@@ -1,4 +1,4 @@
-"""Stateful detection rules for RDP authentication monitoring."""
+"""Stateful detection rules for RDP authentication monitoring by BSM."""
 
 from __future__ import annotations
 
@@ -169,4 +169,3 @@ def _compact_statuses(values: Iterable[str]) -> list[str]:
         if value not in seen:
             seen.append(value)
     return seen
-

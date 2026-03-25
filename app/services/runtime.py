@@ -1,4 +1,4 @@
-"""Runtime state, PID files, and background process management."""
+"""Runtime state, PID files, and background process management by BSM."""
 
 from __future__ import annotations
 

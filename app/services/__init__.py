@@ -1,4 +1,4 @@
-"""Service layer components."""
+"""Service layer components by Basil Saji Mathew (BSM)."""
 
 from .alerting import AlertService, AlertThrottler, DiscordWebhookClient
 from .application import MonitoringApplication
@@ -14,4 +14,3 @@ __all__ = [
     "RuntimeController",
     "configure_logging",
 ]
-

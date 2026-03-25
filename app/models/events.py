@@ -1,4 +1,4 @@
-"""Structured event models for normalized Windows Security events."""
+"""Structured event models for normalized Windows Security events by BSM."""
 
 from __future__ import annotations
 
@@ -49,4 +49,3 @@ class WindowsSecurityEvent:
             "sub_status_code": self.sub_status_code,
             "raw_event_data": self.raw_event_data,
         }
-

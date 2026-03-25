@@ -1,3 +1,4 @@
+# BSM configuration template for the RDP Login Monitoring & Alert System.
 environment: production
 machine_name: RDP-MONITORED-HOST
 

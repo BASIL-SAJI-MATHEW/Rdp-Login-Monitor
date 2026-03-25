@@ -1,4 +1,4 @@
-"""Structured logging configuration."""
+"""Structured logging configuration by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 

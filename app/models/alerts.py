@@ -1,4 +1,4 @@
-"""Alert and detection finding models."""
+"""Alert and detection finding models by Basil Saji Mathew (BSM)."""
 
 from __future__ import annotations
 
