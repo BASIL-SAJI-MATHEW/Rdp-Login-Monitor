@@ -1,3 +1,5 @@
+"""Parser tests for the BSM RDP monitoring project."""
+
 from app.monitor.parser import WindowsEventXmlParser
 
 
@@ -31,4 +33,3 @@ def test_parser_normalizes_failed_rdp_event() -> None:
     assert event.machine_name == "RDP-MONITORED-HOST"
     assert event.logon_type == "10"
     assert event.login_status.value == "failure"
-

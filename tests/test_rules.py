@@ -1,3 +1,5 @@
+"""Detection rule tests for the BSM RDP monitoring project."""
+
 from datetime import datetime, timedelta, timezone
 
 from app.config.settings import AppSettings, DetectionSettings

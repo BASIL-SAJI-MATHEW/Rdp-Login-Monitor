@@ -1,4 +1,4 @@
-"""CLI entry point for the RDP Login Monitoring & Alert System."""
+"""CLI entry point for the RDP Login Monitoring & Alert System by BSM."""
 
 from __future__ import annotations
 
