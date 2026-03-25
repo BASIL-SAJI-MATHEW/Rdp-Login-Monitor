@@ -1,0 +1,50 @@
+environment: production
+machine_name: RDP-MONITORED-HOST
+
+whitelist_ips:
+  - 10.0.0.1
+  - 192.168.1.10
+
+whitelist_users:
+  - administrator
+  - svc_rdp_monitor
+
+monitor:
+  channel: Security
+  poll_interval_seconds: 2
+  batch_size: 64
+  only_rdp_logons: true
+  start_from_latest: true
+  error_backoff_seconds: 5
+
+detection:
+  brute_force_attempts: 5
+  brute_force_window_seconds: 120
+  suspicious_ip_failure_threshold: 3
+  suspicious_ip_window_seconds: 300
+  anomaly_rate_threshold: 20
+  anomaly_window_seconds: 300
+  alert_cooldown_seconds: 300
+  alert_on_unknown_success: true
+  alert_on_unknown_failure: false
+
+logging:
+  directory: logs
+  level: INFO
+  max_bytes: 10485760
+  backup_count: 5
+
+discord:
+  enabled: true
+  webhook_url: ""
+  timeout_seconds: 10
+  retry_attempts: 3
+  retry_backoff_seconds: 2
+  username: RDP Monitor
+
+runtime:
+  pid_file: runtime/rdp-monitor.pid
+  stop_file: runtime/rdp-monitor.stop
+  status_file: runtime/rdp-monitor.status.json
+  background_stdout: runtime/rdp-monitor.stdout.log
+  background_stderr: runtime/rdp-monitor.stderr.log
