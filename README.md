@@ -34,16 +34,6 @@
 
 This repository is designed as a **job-portfolio-grade backend security project**. It emphasizes modular engineering, clean architecture, typed domain models, operational logging, configuration hygiene, and service lifecycle control.
 
-SEO keywords naturally covered by this project include:
-
-- Windows RDP monitoring
-- Windows Event Log monitoring in Python
-- RDP brute-force detection
-- Discord webhook security alerts
-- Security event normalization
-- Backend cybersecurity project
-- Blue team monitoring automation
-
 ## Why This Project
 
 RDP remains one of the most targeted remote access surfaces in Windows environments. Failed logons, password spraying, and suspicious successful logins are common precursors to compromise. This system provides a focused backend pipeline for:
